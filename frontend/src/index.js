@@ -1,8 +1,8 @@
+// src/index.js — React entry point. Do not modify unless changing
+// the root render strategy (e.g. switching to hydrateRoot for SSR).
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/global.css'
 import App from './App';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,4 +10,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
